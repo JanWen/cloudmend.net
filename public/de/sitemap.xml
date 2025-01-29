@@ -2,75 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/de/projects/photography/</loc>
+    <loc>http://localhost:1313/de/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/series/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/projects/photography/"
+                href="http://localhost:1313/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/projects/photography/"
+                href="http://localhost:1313/de/series/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/de/projects/design/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/projects/design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/projects/design/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/projects/writing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/projects/writing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/projects/writing/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/projects/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/blog/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/blog/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/blog/hipster-ipsum/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/tags/ipsum/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/tags/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -88,7 +37,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/de/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -103,91 +51,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/words/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/words/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/words/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/code/</loc>
-    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/code/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/blog/startup-ipsum/</loc>
-    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/blog/startup-ipsum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/blog/startup-ipsum/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/coffee/</loc>
-    <lastmod>2017-11-01T12:04:16-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/tags/images/</loc>
-    <lastmod>2017-11-01T12:04:16-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/images/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/images/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/blog/coffee-ipsum/</loc>
-    <lastmod>2017-11-01T12:04:16-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/blog/coffee-ipsum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/blog/coffee-ipsum/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/series/"
                 />
   </url>
 </urlset>

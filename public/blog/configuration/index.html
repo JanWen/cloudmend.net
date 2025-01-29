@@ -155,14 +155,6 @@
             
             
             
-            
-            <a class="navbar-item" href="http://localhost:1313/de/">Deutsch</a>
-            
-            
-            
-            <a class="navbar-item" href="http://localhost:1313/es/">Español</a>
-            
-            
 
             
             
@@ -185,33 +177,6 @@
         
          | 
         5 minutes read
-        
-    </div>
-    
-    <div class="blog-share">
-        Share this:
-        
-        <a class="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text=%3cstrong%3eStart%20Here%3a%3c%2fstrong%3e%20Configuration%20and%20Content%20http%3a%2f%2flocalhost%3a1313%2fblog%2fconfiguration%2f"
-            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <i class="fab fa-twitter"></i>
-            <span class="hidden">Twitter</span>
-        </a>
-        
-        
-        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2fconfiguration%2f"
-            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-            <i class="fab fa-facebook-f"></i>
-            <span class="hidden">Facebook</span>
-        </a>
-        
-        
-        <a class="icon-pinterest"
-            href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2fconfiguration%2f&amp;description=%2a%2aStart%20Here%3a%2a%2a%20Configuration%20and%20Content"
-            onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-            <i class="fab fa-pinterest-p"></i>
-            <span class="hidden">Pinterest</span>
-        </a>
         
     </div>
     
@@ -296,9 +261,9 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#586e75"># Share buttons on blog post pages</span>
 </span></span><span style="display:flex;"><span>    [params.share]
-</span></span><span style="display:flex;"><span>        twitter                  = <span style="color:#cb4b16">true</span>
-</span></span><span style="display:flex;"><span>        facebook                 = <span style="color:#cb4b16">true</span>
-</span></span><span style="display:flex;"><span>        pinterest                = <span style="color:#cb4b16">true</span>
+</span></span><span style="display:flex;"><span>        twitter                  = <span style="color:#cb4b16">false</span>
+</span></span><span style="display:flex;"><span>        facebook                 = <span style="color:#cb4b16">false</span>
+</span></span><span style="display:flex;"><span>        pinterest                = <span style="color:#cb4b16">false</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#586e75"># To enable giscus, the GitHub-discussions-based comment section,</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#586e75"># input the repository for the discussions below. For more details, see</span>
@@ -319,24 +284,16 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#586e75"># Icon pack &#34;fab&#34; includes social network icons, see: https://fontawesome.com/icons?d=gallery&amp;s=brands&amp;m=free</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#586e75"># Icon pack &#34;fas&#34; includes solid style icons, see: https://fontawesome.com/icons?d=gallery&amp;s=solid&amp;m=free</span>
 </span></span><span style="display:flex;"><span>    [[params.social]]
-</span></span><span style="display:flex;"><span>        url   = <span style="color:#2aa198">&#34;https://twitter.com/&#34;</span>
-</span></span><span style="display:flex;"><span>        icon  = <span style="color:#2aa198">&#34;twitter&#34;</span> <span style="color:#586e75"># icon name without the &#39;fa-&#39;</span>
-</span></span><span style="display:flex;"><span>        icon_pack = <span style="color:#2aa198">&#34;fab&#34;</span>
-</span></span><span style="display:flex;"><span>    [[params.social]]
-</span></span><span style="display:flex;"><span>        url   = <span style="color:#2aa198">&#34;https://facebook.com/&#34;</span>
-</span></span><span style="display:flex;"><span>        icon  = <span style="color:#2aa198">&#34;facebook-f&#34;</span> <span style="color:#586e75"># icon name without the &#39;fa-&#39;</span>
-</span></span><span style="display:flex;"><span>        icon_pack = <span style="color:#2aa198">&#34;fab&#34;</span>
-</span></span><span style="display:flex;"><span>    [[params.social]]
 </span></span><span style="display:flex;"><span>        url   = <span style="color:#2aa198">&#34;https://linkedin.com/&#34;</span>
 </span></span><span style="display:flex;"><span>        icon  = <span style="color:#2aa198">&#34;linkedin-in&#34;</span> <span style="color:#586e75"># icon name without the &#39;fa-&#39;</span>
 </span></span><span style="display:flex;"><span>        icon_pack = <span style="color:#2aa198">&#34;fab&#34;</span>
 </span></span><span style="display:flex;"><span>    [[params.social]]
-</span></span><span style="display:flex;"><span>        url = <span style="color:#2aa198">&#34;mailto:youremail@email.com&#34;</span>  <span style="color:#586e75"># For a direct email link, use &#34;mailto:test@example.org&#34;.</span>
+</span></span><span style="display:flex;"><span>        url = <span style="color:#2aa198">&#34;mailto:jan.wendel@cloudmend.net&#34;</span>  <span style="color:#586e75"># For a direct email link, use &#34;mailto:test@example.org&#34;.</span>
 </span></span><span style="display:flex;"><span>        icon = <span style="color:#2aa198">&#34;paper-plane&#34;</span> <span style="color:#586e75"># icon name without the &#39;fa-&#39;</span>
 </span></span><span style="display:flex;"><span>        icon_pack = <span style="color:#2aa198">&#34;fas&#34;</span>
 </span></span><span style="display:flex;"><span>    [[params.social]]
-</span></span><span style="display:flex;"><span>        url   = <span style="color:#2aa198">&#34;https://mastodon.social/&#34;</span>
-</span></span><span style="display:flex;"><span>        icon  = <span style="color:#2aa198">&#34;mastodon&#34;</span> <span style="color:#586e75"># icon name without the &#39;fa-&#39;</span>
+</span></span><span style="display:flex;"><span>        url   = <span style="color:#2aa198">&#34;https://github.com/JanWen&#34;</span>
+</span></span><span style="display:flex;"><span>        icon  = <span style="color:#2aa198">&#34;github&#34;</span> <span style="color:#586e75"># icon name without the &#39;fa-&#39;</span>
 </span></span><span style="display:flex;"><span>        icon_pack = <span style="color:#2aa198">&#34;fab&#34;</span>
 </span></span><span style="display:flex;"><span>        html_attributes = <span style="color:#2aa198">&#34;rel=\&#34;me\&#34;&#34;</span> <span style="color:#586e75"># Add rel attribute for Mastodon profile link verification</span>
 </span></span><span style="display:flex;"><span>
@@ -384,27 +341,6 @@
 </span></span><span style="display:flex;"><span>        [languages.en.params]
 </span></span><span style="display:flex;"><span>            description  = <span style="color:#2aa198">&#34;Website Description&#34;</span>   <span style="color:#586e75"># Max 160 characters show in search results</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#586e75"># footerText   = &#34;&#34;                      # Text to override default footer text (markdown allowed)</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    [languages.es]
-</span></span><span style="display:flex;"><span>        languageName     = <span style="color:#2aa198">&#34;Español&#34;</span>
-</span></span><span style="display:flex;"><span>        languageCode     = <span style="color:#2aa198">&#34;es&#34;</span>
-</span></span><span style="display:flex;"><span>        contentDir       = <span style="color:#2aa198">&#34;content/es&#34;</span>
-</span></span><span style="display:flex;"><span>        weight           = <span style="color:#2aa198">1</span>
-</span></span><span style="display:flex;"><span>        title            = <span style="color:#2aa198">&#34;Introducción&#34;</span>
-</span></span><span style="display:flex;"><span>        [languages.es.params]
-</span></span><span style="display:flex;"><span>            description  = <span style="color:#2aa198">&#34;Descripcion del sitio web&#34;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#586e75"># footerText   = &#34;&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    [languages.de]
-</span></span><span style="display:flex;"><span>        languageName     = <span style="color:#2aa198">&#34;Deutsch&#34;</span>
-</span></span><span style="display:flex;"><span>        languageCode     = <span style="color:#2aa198">&#34;de&#34;</span>
-</span></span><span style="display:flex;"><span>        contentDir       = <span style="color:#2aa198">&#34;content/de&#34;</span>
-</span></span><span style="display:flex;"><span>        weight           = <span style="color:#2aa198">2</span>
-</span></span><span style="display:flex;"><span>        title            = <span style="color:#2aa198">&#34;Vorstellung&#34;</span>
-</span></span><span style="display:flex;"><span>        [languages.de.params]
-</span></span><span style="display:flex;"><span>            dateFormat   = <span style="color:#2aa198">&#34;2. January 2006&#34;</span>
-</span></span><span style="display:flex;"><span>            description  = <span style="color:#2aa198">&#34;Beschreibung der Webseite&#34;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#586e75"># footerText   = &#34;&#34;</span>
 </span></span></code></pre></div></details>
 <p>Below are some specific things you might like to configure right away.</p>
 
