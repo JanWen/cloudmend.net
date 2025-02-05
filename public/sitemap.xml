@@ -2,60 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/en/projects/photography/</loc>
+    <loc>http://testing.cloudmend.net/projects/photography/</loc>
   </url><url>
-    <loc>https://example.org/en/projects/design/</loc>
+    <loc>http://testing.cloudmend.net/projects/design/</loc>
   </url><url>
-    <loc>https://example.org/en/projects/writing/</loc>
+    <loc>http://testing.cloudmend.net/projects/writing/</loc>
   </url><url>
-    <loc>https://example.org/en/projects/</loc>
+    <loc>http://testing.cloudmend.net/projects/</loc>
   </url><url>
-    <loc>https://example.org/en/blog/</loc>
+    <loc>http://testing.cloudmend.net/blog/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/blog/</loc>
+    <loc>http://testing.cloudmend.net/tags/blog/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/</loc>
+    <loc>http://testing.cloudmend.net/tags/features/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/features/</loc>
+    <loc>http://testing.cloudmend.net/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://testing.cloudmend.net/series/quickstart/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/blog/multi-author/</loc>
+    <loc>http://testing.cloudmend.net/series/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://testing.cloudmend.net/blog/multi-author/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/images/</loc>
+    <loc>http://testing.cloudmend.net/tags/</loc>
+    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
+  </url><url>
+    <loc>http://testing.cloudmend.net/series/example-posts/</loc>
     <lastmod>2022-02-20T12:04:16-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/blog/coffee-ipsum/</loc>
+    <loc>http://testing.cloudmend.net/tags/images/</loc>
     <lastmod>2022-02-20T12:04:16-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/blog/configuration/</loc>
+    <loc>http://testing.cloudmend.net/blog/coffee-ipsum/</loc>
+    <lastmod>2022-02-20T12:04:16-05:00</lastmod>
+  </url><url>
+    <loc>http://testing.cloudmend.net/blog/configuration/</loc>
     <lastmod>2020-07-25T02:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/code/</loc>
+    <loc>http://testing.cloudmend.net/tags/code/</loc>
     <lastmod>2020-07-25T02:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/blog/long-form-post/</loc>
+    <loc>http://testing.cloudmend.net/blog/long-form-post/</loc>
     <lastmod>2019-05-30T20:18:53-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/markdown/</loc>
+    <loc>http://testing.cloudmend.net/tags/markdown/</loc>
     <lastmod>2017-11-06T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/blog/startup-ipsum/</loc>
+    <loc>http://testing.cloudmend.net/blog/startup-ipsum/</loc>
     <lastmod>2017-11-06T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://testing.cloudmend.net/blog/no-date/</loc>
   </url><url>
-    <loc>https://example.org/en/blog/no-date/</loc>
-  </url><url>
-    <loc>https://example.org/tags/words/</loc>
+    <loc>http://testing.cloudmend.net/tags/words/</loc>
   </url>
 </urlset>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Words on My New Hugo Site</title>
-    <link>https://example.org/tags/words/</link>
-    <description>Recent content in Words on My New Hugo Site</description>
+    <title>Words on Introduction</title>
+    <link>http://testing.cloudmend.net/tags/words/</link>
+    <description>Recent content in Words on Introduction</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/tags/words/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://testing.cloudmend.net/tags/words/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Undated post</title>
-      <link>https://example.org/en/blog/no-date/</link>
+      <link>http://testing.cloudmend.net/blog/no-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/en/blog/no-date/</guid>
+      <guid>http://testing.cloudmend.net/blog/no-date/</guid>
       <description>&lt;p&gt;I was born yesterday, tomorrow.&lt;/p&gt;</description>
     </item>
   </channel>
