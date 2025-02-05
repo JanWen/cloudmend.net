@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Introduction</title>
-    <link>http://testing.cloudmend.net/tags/</link>
-    <description>Recent content in Tags on Introduction</description>
+    <title>Tags on ⛅Cloudmend</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on ⛅Cloudmend</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Feb 2022 16:04:06 -0500</lastBuildDate>
-    <atom:link href="http://testing.cloudmend.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>http://testing.cloudmend.net/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Mon, 21 Feb 2022 16:04:06 -0500</pubDate>
-      <guid>http://testing.cloudmend.net/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Features</title>
-      <link>http://testing.cloudmend.net/tags/features/</link>
+      <link>http://localhost:1313/tags/features/</link>
       <pubDate>Mon, 21 Feb 2022 16:04:06 -0500</pubDate>
-      <guid>http://testing.cloudmend.net/tags/features/</guid>
+      <guid>http://localhost:1313/tags/features/</guid>
       <description></description>
     </item>
     <item>
       <title>Images</title>
-      <link>http://testing.cloudmend.net/tags/images/</link>
+      <link>http://localhost:1313/tags/images/</link>
       <pubDate>Sun, 20 Feb 2022 12:04:16 -0500</pubDate>
-      <guid>http://testing.cloudmend.net/tags/images/</guid>
+      <guid>http://localhost:1313/tags/images/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>http://testing.cloudmend.net/tags/code/</link>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
-      <guid>http://testing.cloudmend.net/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://testing.cloudmend.net/tags/markdown/</link>
+      <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Mon, 06 Nov 2017 12:04:06 -0500</pubDate>
-      <guid>http://testing.cloudmend.net/tags/markdown/</guid>
+      <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Words</title>
-      <link>http://testing.cloudmend.net/tags/words/</link>
+      <link>http://localhost:1313/tags/words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://testing.cloudmend.net/tags/words/</guid>
+      <guid>http://localhost:1313/tags/words/</guid>
       <description></description>
     </item>
   </channel>

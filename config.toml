@@ -12,7 +12,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
+    email                        = "jan.wendel@cloudmend.com"   # E-mail address for contact section
     # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
@@ -28,7 +28,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "en-US"                 # Language specific format to use
     [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
+        useTwoColumns            = true                   # Use a layout with two columns instead of three
 
     # Share buttons on blog post pages
     [params.share]
@@ -55,7 +55,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
     # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
     [[params.social]]
-        url   = "https://linkedin.com/"
+        url   = "https://www.linkedin.com/in/jan-wendel-b106371a3/"
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
@@ -108,7 +108,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "⛅Cloudmend"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
+            description  = "Software & DevOps Engineerig in the Cloud"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
