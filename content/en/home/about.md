@@ -1,17 +1,20 @@
 ---
 title: "About"
 image: "profile.jpg"
-weight: 8
+weight: 0
 ---
 
-⛅**Clodmend** ws started by Jan Wendel to provide high quality and trustworthy IT-Services.
+⛅**Cloudmend** ws started by **Jan Wendel** to provide **high quality and trustworthy IT-Services**.
 
 ### Key Competencies
 
 * Python🐍 & Node.js⚡
-* Containerization and distributed systems with Docker, Kubernetes and Openshift 📦
-* Design and development of serverless applications ☁️
-* Any number of custom index page sections from Markdown files
-* _Projects_ section with any number of projects: highly configurable as a photo gallery, modals, or external links
-* _Blog_ section with optional _Latest Post_, on the main page or as a separate section
+* Containerization and distributed systems with **Docker, Kubernetes and Openshift** 📦
+* Design and development of **serverless applications** ☁️
+* **DevOps** tooling 🛠️
+* **CI/CD** and test automation ⚙️
+* Monitoring & observability with **Prometheus, Grafana, CloudWatch** 📊  
+* Infrastructure as Code with **Terraform & CloudFormation** 🏗️
+* **REST API** design & development🔌
+* Cloud platforms: **AWS, GCP, Azure** 🌍 
 * Fluent in English, German and Romanian

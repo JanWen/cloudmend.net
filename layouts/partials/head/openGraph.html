@@ -1,0 +1,24 @@
+<meta property="og:title" content="{{ .Title | markdownify }}{{ if ne .Title .Site.Title }} - {{ .Site.Title | markdownify }}{{ end }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+<meta property="og:url" content="{{ .Permalink }}"/>
+<!-- <meta name="og:image" content="http://cloudmend.net/home/profile_hu_d04bb1d6476bdbf4.jpg"> -->
+<meta property="og:site_name" content="{{ .Site.Title | markdownify }}"/>
+
+<!-- <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cloudmend - Your Cloud Management Platform">
+<meta name="twitter:description" content="Cloudmend helps you manage and monitor your cloud infrastructure effortlessly.">
+<meta name="twitter:image" content="http://cloudmend.net/home/profile_hu_d04bb1d6476bdbf4.jpg">
+<meta name="twitter:url" content="https://cloudmend.net"> -->
+
+{{ with .Resources.ByType "image" }}
+{{ range first 5 (sort . "Params.weight") }}
+<meta property="og:image" content="{{ .Permalink }}"/>
+{{ end }}
+{{ else }}
+{{ with .Site.GetPage "page" "/home" }}
+{{ range first 5 (.Resources.ByType "image") }}
+<meta property="og:image" content="{{ .Permalink }}"/>
+{{ end }}
+{{ end }}
+{{ end }}

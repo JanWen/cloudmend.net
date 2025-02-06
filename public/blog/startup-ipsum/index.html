@@ -13,13 +13,13 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Software &amp; DevOps Engineerig in the Cloud">
 <title>
-Markdown Support - ⛅Cloudmend
+Ai Mistakes - ⛅Cloudmend
 </title>
 
 
 
         
-        <meta property="og:title" content="Markdown Support - ⛅Cloudmend" />
+        <meta property="og:title" content="AI Mistakes - ⛅Cloudmend" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Software &amp; DevOps Engineerig in the Cloud"/>
 <meta property="og:url" content="http://localhost:1313/blog/startup-ipsum/"/>
@@ -92,11 +92,7 @@ Markdown Support - ⛅Cloudmend
             
 
             
-                
-            
 
-            
-            
             
             
             
@@ -106,19 +102,9 @@ Markdown Support - ⛅Cloudmend
             
             
             
-                
-                
-                
-                
-                  <a class="navbar-item" href="http://localhost:1313/projects/">
-                  
-                  
-                  Projects
-                  
-                  
-                  </a>
-                
-                
+            
+            
+            <a class="navbar-item" href="/#cvs">CVs</a>
             
             
             
@@ -135,12 +121,6 @@ Markdown Support - ⛅Cloudmend
                   </a>
                 
                 
-            
-            
-            
-            
-            
-            <a class="navbar-item" href="/#lorem">Lorem Ipsum</a>
             
             
             
@@ -169,14 +149,14 @@ Markdown Support - ⛅Cloudmend
                 
 <div class="container">
     <h2 class="title is-1 top-pad strong-post-title">
-        <a href="http://localhost:1313/blog/startup-ipsum/">Markdown Support</a>
+        <a href="http://localhost:1313/blog/startup-ipsum/">AI Mistakes</a>
     </h2>
     
     <div class="post-data">
-        Nov 6, 2017
+        Feb 11, 2024
         
          | 
-        1 minute read
+        4 minutes read
         
     </div>
     
@@ -207,11 +187,11 @@ Markdown Support - ⛅Cloudmend
     <p>
         Tags:
         
-        <a href="/tags/markdown">
-            markdown</a>,
+        <a href="/tags/opinion">
+            Opinion</a>,
         
-        <a href="/tags/features">
-            features</a>
+        <a href="/tags/ai">
+            AI</a>
         
     </p>
     
@@ -221,88 +201,18 @@ Markdown Support - ⛅Cloudmend
 </div>
 
 <div class="container markdown top-pad">
-    <p>Introduction supports code blocks and syntax highlighting:</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ complicated techie code git bash ubuntu
-</span></span><span style="display:flex;"><span>&gt;&gt;&gt; <span style="color:#719e07">return</span> value init foo
-</span></span></code></pre></div><p>You can easily create tables using Markdown, with rows that support readability:</p>
-<table>
-  <thead>
-      <tr>
-          <th>this</th>
-          <th style="text-align: right">is</th>
-          <th>a</th>
-          <th>table</th>
-          <th>!</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>this</td>
-          <td style="text-align: right">is</td>
-          <td>the</td>
-          <td>1st</td>
-          <td>row</td>
-      </tr>
-      <tr>
-          <td>this</td>
-          <td style="text-align: right">is</td>
-          <td>the</td>
-          <td>2nd</td>
-          <td>row</td>
-      </tr>
-      <tr>
-          <td>this</td>
-          <td style="text-align: right">is</td>
-          <td>the</td>
-          <td>3rd</td>
-          <td>row</td>
-      </tr>
-      <tr>
-          <td>edgy</td>
-          <td style="text-align: right">jo</td>
-          <td>ke</td>
-          <td>lands</td>
-          <td>here</td>
-      </tr>
-      <tr>
-          <td>this</td>
-          <td style="text-align: right">is</td>
-          <td>the</td>
-          <td>5th</td>
-          <td>row</td>
-      </tr>
-      <tr>
-          <td>this</td>
-          <td style="text-align: right">is</td>
-          <td>the</td>
-          <td>6th</td>
-          <td>row</td>
-      </tr>
-  </tbody>
-</table>
-<p>Unordered lists render with high readabiltiy as well!</p>
-<ul>
-<li>Unordered list
-<ul>
-<li>First sub-item</li>
-<li>Second sub-item</li>
-</ul>
-</li>
-<li>Second top level item</li>
-</ul>
-<p>As do ordered lists:</p>
-<ol>
-<li>Top level
-<ol>
-<li>First sub-level
-<ol>
-<li>Second sub-level</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<p>Have fun writing with Markdown!</p>
+    
+<h2 id="i" class="anchor-link"><a href="#i">I</a></h2>
+<p>I needed to find all the red sections in an image with some Python code, and I had a rough idea of how it should work. An image is essentially and array of pixels and each pixel is a set of numbers representing it’s color. A format called RGB is commonly used for this, where each pixel consist of three number in the range of 0-255, representing how much red, green and blue light make up the pixel. You loop over the array and check whether the color values of a pixel fall with a range that would be red, meaning it should have high values for red, and lower values for green and blue.</p>
+<p>Unfortunately I couldn’t really remember what library and functions to use for this, and just asked ChatGPT to write the code for me instead. Upon first inspection everything looked good, but running the code produced weird result. The wrong parts of the image were getting detected and the colors in the output image were different from the original. After debugging for a bit i realized there was and issue with the way the number range representing the color “red”. The code was written for images in the RGB color format, which has three numeric values per pixel, representing how much red, green and blue it contains. the numeric values used to define the “red” color range were for the CMYK format, which stands for Cyan, Magenta, Yellow, and Key (Black). I don&rsquo;t really understand the nuanced differences between the two color formats (and will hopefully never have to), but using the correct RGB values to define the color range my code worked properly.</p>
+<p>Finding the error took me longer then i liked, i was a bit annoyed at myself for not checking the base assumptions of the program earlier. But the bug also felt odd to me and I kept thinking that a human programmer would never make a mistake like. OK, maybe not “never”, but it seem very unlikely that a someone would pick out the values for the wrong color format and then somehow bang out an other wise perfect program based on those incorrect values. It just doesn&rsquo;t match the iterative approach most people have to writing software. Where running your program early and often will cause such mistakes to be noticed before you finish writing the whole thing. Since then i have often found that bugs in LLM generated code seem harder to find then usual - they seem placed in more unexpected, seemingly random places.</p>
+
+<h2 id="ii" class="anchor-link"><a href="#ii">II</a></h2>
+<p>This reminded me of an effect I’ve seen people talk about in competitive games, where low difficulty bots often feel more difficult to predict, especially when you are used to playing against people. For example, chess beginners are known to play very reactively - they tend to always respond to the last move by their opponent, forgetting the bigger picture. This allows a higher rated player to set up distraction and traps, which the lower rated player will predictably walk into.</p>
+<p>An AI will it doesn’t feel like it makes mistakes in a same way. An AI that’s rated 1000 elo will on average make the same amount of mistakes as a 1000 elo player, but the mistakes will be less predictable. A chess AI won’t get obviously distracted like a player would, the reasons for the bad moves it makes wont be comprehensible.</p>
+<p>I think the fundamental problem here is that this “prediction” work on empathy. On trying to image yourself in the other’s position. It’s thinking “if i was a lower rated chess player, what would i do?”. It make no sense say “if i was an easy difficulty chess AI”, a chess engines algorithms are not compatible with human, on the fly decision making.</p>
+<p>This lack of empathic connection to the AI is also what makes debugging LLM generated code more difficult. Debugging code is also at least partially an empathic process. You are putting yourself in the shoes of the codes original author, trying to rebuild their mental models from his code and to figure out where the mistake happened.</p>
+<p>If i imagine myself as a person who wrote the color detection code above, and tried to think where the error likely happened -  i would not expect the initial values to just be completely wrong. Of course, the code was written by an LLM instead of a person, but I can’t imagine that.</p>
 
 </div>
 
