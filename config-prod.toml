@@ -110,7 +110,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         weight           = 0
         title            = "⛅Cloudmend"
         [languages.en.params]
-            description  = "Software & DevOps Engineerig in the Cloud"   # Max 160 characters show in search results
+            description  = "Cloud Based Software & DevOps Engineerig"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
 [module]

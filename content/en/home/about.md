@@ -4,7 +4,7 @@ image: "profile.jpg"
 weight: 0
 ---
 
-⛅**Cloudmend** ws started by **Jan Wendel** to provide **high quality and trustworthy IT-Services**.
+With over 5 years experience in the Industry, ⛅**Cloudmend** was started by **Jan Wendel** to provide **no-bullshit, solution oriented consulting** and **cost effective IT-services** for businessses at **any scale**. My mission is to build **high quality, sustainable, systems** and **high trust relationships** with my clients.
 
 ### Key Competencies
 
@@ -18,3 +18,4 @@ weight: 0
 * **REST API** design & development🔌
 * Cloud platforms: **AWS, GCP, Azure** 🌍 
 * Fluent in English, German and Romanian
+

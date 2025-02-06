@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://cloudmend.net/blog/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/</loc>
+    <loc>http://cloudmend.net/en/blog/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://cloudmend.net/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>http://cloudmend.net/tags/ai/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ai_mistakes/</loc>
+    <loc>http://cloudmend.net/blog/ai_mistakes/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/ai_mistakes/</loc>
+    <loc>http://cloudmend.net/en/blog/ai_mistakes/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://cloudmend.net/en/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/opinion/</loc>
+    <loc>http://cloudmend.net/tags/opinion/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://cloudmend.net/tags/</loc>
     <lastmod>2024-02-11T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://cloudmend.net/series/</loc>
   </url>
 </urlset>
