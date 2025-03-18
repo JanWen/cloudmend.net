@@ -12,7 +12,7 @@ CV in English 🇬🇧
 </a>
 </div>
 <div>
-<a href="home/cloudmend_cv_en.pdf">
+<a href="home/cloudmend_cv_de.pdf">
 CV in German 🇩🇪
 </a>
 </b>

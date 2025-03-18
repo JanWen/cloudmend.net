@@ -4,7 +4,7 @@ image: "profile.jpg"
 weight: 0
 ---
 
-With over 5 years experience in the Industry, ⛅**Cloudmend** was started by **Jan Wendel** to provide **no-bullshit, solution oriented consulting** and **cost effective IT-services** for businessses at **any scale**. My mission is to build **high quality, sustainable, systems** and **high trust relationships** with my clients.
+With over 6 years experience in the Industry, ⛅**Cloudmend** was started by **Jan Wendel** to provide **no-bullshit, solution oriented consulting** and **cost effective IT-services** for businessses at **any scale**. My mission is to build **high quality, sustainable, systems** and **high trust relationships** with my clients.
 
 ### Key Competencies
 
